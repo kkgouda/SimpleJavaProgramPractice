@@ -8,5 +8,6 @@ public class ArrayLargestNo {
             }
         }
         System.out.println("Largest number of array is: "+ max);
+        System.out.println("Largest number of array is: "+ max);
     }
 }
