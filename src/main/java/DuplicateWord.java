@@ -7,7 +7,7 @@ public class DuplicateWord {
         String sentence = "kiran KIRAN kumar Gouda GOuda";
         sentence = sentence.toLowerCase();
         // Split the string into words
-        String[] words = sentence.split("\\s+");  // Split by whitespace
+        String[] words = sentence.split(" ");  // Split by whitespace
 
         // Use a HashMap to store the frequency of each word
         Map<String, Integer> wordCount = new HashMap<>();
