@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class removeDuplicateWord {
     public static void main(String[] args) {
-        String sen = "Sam kiran kiran went went to to to his business";
+        String sen = "Sam kiran kiran went went to to to his business 22 44 55 44 22";
         String[] arr = sen.split(" ");
         //arr={Sam,went,went,to,to ,to ,his ,business};
         Set<String> s = new LinkedHashSet<String>();

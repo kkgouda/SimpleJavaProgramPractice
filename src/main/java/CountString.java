@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NoOfString {
+public class CountString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter string:");
