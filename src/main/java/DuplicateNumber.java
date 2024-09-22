@@ -4,7 +4,7 @@ import java.util.Map;
 public class DuplicateNumber {
        public static void main(String[] args) {
             int[] arr = {3, 3, 4, 5, 6, 7, 7, 8, 8, 8};
-            int[] arr1 = {3, 3, 4, 5, 6, 7, 7, };
+            //int[] arr1 = {3, 3, 4, 5, 6, 7, 7, };
 
             // Use a HashMap to store the frequency of each number
             Map<Integer, Integer> numberCount = new HashMap<>();

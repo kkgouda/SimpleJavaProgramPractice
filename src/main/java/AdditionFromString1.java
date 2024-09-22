@@ -1,4 +1,15 @@
 public class AdditionFromString1 {
+
+    // Driver code
+    public static void main(String[] args)
+    {
+
+        // input alphanumeric string
+        String str = "13abc20yz68";
+
+        // Function call
+        System.out.println(findSum(str));
+    }
     static int findSum(String str)
     {
         // A temporary string
@@ -12,9 +23,9 @@ public class AdditionFromString1 {
             char ch = str.charAt(i);
 
             // if current character is a digit
-            if (Character.isDigit(ch))
+            if (Character.isDigit(ch)) {
                 temp += ch;
-
+            }
                 // if current character is an alphabet
             else {
                 // increment sum by number found earlier
@@ -31,16 +42,6 @@ public class AdditionFromString1 {
         return sum + Integer.parseInt(temp);
     }
 
-    // Driver code
-    public static void main(String[] args)
-    {
-
-        // input alphanumeric string
-        String str = "12abc20yz68";
-
-        // Function call
-        System.out.println(findSum(str));
-    }
 }
 
 

@@ -3,6 +3,6 @@ public class WordCount {
         String str ="Work is god";
         String[] words = str.split(" ");
         int count = words.length;
-        System.out.println("Number of words are: " +count);
+        System.out.println("Number of words are: " + count);
     }
 }

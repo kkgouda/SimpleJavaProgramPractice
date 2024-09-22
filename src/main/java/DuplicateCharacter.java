@@ -6,7 +6,7 @@ public class DuplicateCharacter {
         String input = "programming"; // Example input string
         findDuplicateCharacters(input);
     }
-    public static void findDuplicateCharacters(String str) {
+    static void findDuplicateCharacters(String str) {
 
         Map<Character, Integer> charCountMap = new HashMap<>();
         char[] chars = str.toCharArray();

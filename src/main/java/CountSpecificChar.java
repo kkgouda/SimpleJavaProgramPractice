@@ -5,7 +5,7 @@ public class CountSpecificChar {
         int count=0;
 
         for (int i = 0; i < name.length(); i++){
-            if(name.charAt(i) == specificChar){
+            if(name.charAt(i) ==  specificChar){
                 count++;
             }
         }

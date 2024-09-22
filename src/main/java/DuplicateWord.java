@@ -4,7 +4,7 @@ import java.util.Map;
 public class DuplicateWord {
     public static void main(String[] args) {
        // String sentence = "Sam kiran kiran went went to to to his business";
-        String sentence = "kiran KIRAN kumar Gouda GOuda";
+        String sentence = "kiranKIRANkumarGoudaGOuda";
         sentence = sentence.toLowerCase();
         // Split the string into words
         String[] words = sentence.split(" ");  // Split by whitespace
@@ -27,3 +27,17 @@ public class DuplicateWord {
         }
     }
 }
+
+//    String str = "fghf jhghjg gjhgh hgjj kiran kumar kumar";
+//    String[] words = str.split(" ");
+//    Map<String, Integer> wordCount = new HashMap<>();
+//  for (String s:words){
+//          if(wordCount.containsKey(s)){
+//          wordCount.put(s, wordCount.get(s) + 1);
+//          }else {
+//          wordCount.put(s,1);
+//          }
+//          }
+//          System.out.println(wordCount);
+//          }
+//          }
