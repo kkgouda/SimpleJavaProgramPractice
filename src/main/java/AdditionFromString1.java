@@ -10,7 +10,7 @@ public class AdditionFromString1 {
         // Function call
         System.out.println(findSum(str));
     }
-    static int findSum(String str)
+    public static int findSum(String str)
     {
         // A temporary string
         String temp = "0";
