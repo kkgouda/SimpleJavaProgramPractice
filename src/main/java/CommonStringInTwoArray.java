@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class CommonAndDuplicateStringInTwoArray {
+public class CommonStringInTwoArray {
     public static void main(String[] args) {
         String[] str1 = {"kiran", "kiran", "babu", "Jagu", "Jaju"};
         String[] str2 = {"kiran", "kiran", "ram", "jagu", "prabhu"};
@@ -13,14 +13,11 @@ public class CommonAndDuplicateStringInTwoArray {
         }
         for (String wd : str2) {
             if (set.contains(wd)) {
-                System.out.println(wd + " ");
+                System.out.print(wd + " ");
             }
 
        }
-        System.out.println("Unique names are:");
-        for (String wd:set){
-            System.out.println(wd + "");
-        }
+
     }
 }
 

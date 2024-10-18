@@ -5,7 +5,5 @@ public class OverrideString {
             if(arr[i] % 3 == 0 ){
                 System.out.println(arr[i]+ " is divisible by 3");
          }
-
     }
-
 }

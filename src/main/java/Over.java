@@ -5,7 +5,6 @@ public class Over extends OverrideString  {
             if (arr[i] % 3 == 0 && arr[i] > 6) {
                 System.out.println(arr[i] + " is divisible by 3 and print grater than 6");
             }
-
     }
     public static void main(String[] args) {
         Over r = new Over();

@@ -10,13 +10,13 @@ public class SecondHighestNumberOfArray {
             if(numbers>highest){
                 secondHighest = highest;
                  highest = numbers;
-            }else if(numbers>secondHighest){
+            }else if(numbers>secondHighest && numbers !=highest){
                 secondHighest=numbers;
             }
         }
-        if(secondHighest !=Integer.MIN_VALUE){
+        //if(secondHighest !=Integer.MIN_VALUE){
             System.out.println("Second largest number from array is: " +secondHighest);
-        }
+        //}
     }
 
 }

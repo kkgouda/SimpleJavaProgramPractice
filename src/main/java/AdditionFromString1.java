@@ -1,47 +1,31 @@
 public class AdditionFromString1 {
-
-    // Driver code
     public static void main(String[] args)
     {
-
-        // input alphanumeric string
-        String str = "13abc20yz68";
-
-        // Function call
-        System.out.println(findSum(str));
-    }
-    public static int findSum(String str)
-    {
+// input alphanumeric string
+        String str = "26abc04yz1990";
         // A temporary string
         String temp = "0";
-
-        // holds sum of all numbers present in the string
         int sum = 0;
-
-        // read each character in input string
+        // Read each character in input string
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-
-            // if current character is a digit
+            // If the current character is a digit
             if (Character.isDigit(ch)) {
                 temp += ch;
             }
-                // if current character is an alphabet
+            // If the current character is an alphabet
             else {
-                // increment sum by number found earlier
-                // (if any)
+                // Add the number found earlier (if any) to the sum
                 sum += Integer.parseInt(temp);
-
-                // reset temporary string to empty
+                // Reset the temporary string to empty
                 temp = "0";
             }
         }
-
-        // atoi(temp.c_str()) takes care of trailing
-        // numbers
-        return sum + Integer.parseInt(temp);
+        // Add the last number (if any) to the sum
+        sum += Integer.parseInt(temp);
+        // Print the result directly instead of returning it
+        System.out.print("Sum of the total is: " + sum);
     }
-
 }
 
 

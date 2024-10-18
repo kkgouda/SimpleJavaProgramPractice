@@ -5,7 +5,7 @@ public class FibonacciSeries {
         System.out.println("Fibonacci Series are: ");
         for( i = 2; i<count ; ++i){
             n3=n1+n2;
-            System.out.println(" "+n3);
+            System.out.print(" "+n3);
             n1=n2;
             n2=n3;
         }

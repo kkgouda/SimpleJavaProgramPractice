@@ -13,12 +13,12 @@ public class ThirdHighestNumberOfArray {
             } else if (numbers>secondHighest) {
                 thirdHighest=secondHighest;
                 secondHighest=numbers;
-            } else if (numbers>thirdHighest) {
+            } else if (numbers>thirdHighest && numbers !=thirdHighest) {
                 thirdHighest=numbers;
             }
         }
-            if(thirdHighest !=Integer.MIN_VALUE){
+           // if(thirdHighest !=Integer.MIN_VALUE){
                 System.out.println("Third highest number from array is:"+thirdHighest);
-            }
+            //}
     }
 }

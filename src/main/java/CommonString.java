@@ -12,7 +12,7 @@ public class CommonString {
                 common=common+ch;
             }
         }
-        System.out.println("Common characters are :"+common);
+        System.out.print("Common characters are :"+common);
     }
 
 }

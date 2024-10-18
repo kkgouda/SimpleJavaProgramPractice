@@ -4,11 +4,9 @@ import java.util.Set;
 public class IdentifyString {
    public static void main(String[] args) {
         String input = "Hello World! 123";
-        input =input.toUpperCase();
-
+        //input =input.toLowerCase();
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);
-
 
             if (Character.isUpperCase(ch)) {
                 System.out.println(ch + " :is an uppercase letter.");

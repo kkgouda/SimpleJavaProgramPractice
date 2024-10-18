@@ -3,12 +3,10 @@ import java.util.Map;
 
 public class DuplicateAndUniqueCharacter {
     public static void main(String[] args) {
-        String str = "programming";
-        findDuplicateAndUniqueCharacter(str);
-    }
-public static void findDuplicateAndUniqueCharacter(String str){
+        char name[] = "programming".toCharArray();
+
     Map<Character,Integer> count = new HashMap<>();
-    for (char ch : str.toCharArray()) {
+    for (char ch :name ) {
         count.put(ch,count.getOrDefault(ch,0) + 1);
     }
     System.out.println("Unique characters are:");

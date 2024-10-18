@@ -9,13 +9,12 @@ public class CommonCharInTwoArray {
         for (String wd:arr1){
             set.add(wd);  // Add each word to the set
         }
-        System.out.println("Common words are: ");
+       System.out.println("Common words are: ");
         // Use another HashSet to store common elements
-        HashSet<String> commonSet = new HashSet<>();
         for (String wd:arr2){
-            if(set.contains(wd) && !commonSet.contains(wd)){
-                commonSet.add(wd);  // Add to commonSet to avoid duplicates
-                System.out.println(wd+"");
+            if(set.contains(wd)){
+               // Add to commonSet to avoid duplicates
+                System.out.print(wd + " ");
             }
         }
     }
