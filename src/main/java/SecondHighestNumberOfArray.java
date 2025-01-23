@@ -5,7 +5,6 @@ public class SecondHighestNumberOfArray {
         int highest = Integer.MIN_VALUE;
         int secondHighest = Integer.MIN_VALUE;
 
-
         for(int numbers:num){
             if(numbers>highest){
                 secondHighest = highest;
@@ -14,9 +13,19 @@ public class SecondHighestNumberOfArray {
                 secondHighest=numbers;
             }
         }
-        //if(secondHighest !=Integer.MIN_VALUE){
+
             System.out.println("Second largest number from array is: " +secondHighest);
-        //}
+            int[] updatedNum = new int[num.length - 1];
+            int index = 0;
+
+            for (int n : num) {
+            if (n != secondHighest) {
+                updatedNum[index++] = n;
+            }
+        }
+
+        System.out.println("Array after deleting the second highest number: " + java.util.Arrays.toString(updatedNum));
+
     }
 
 }

@@ -6,6 +6,7 @@ public class AdditionFromString1 {
         // A temporary string
         String temp = "0";
         int sum = 0;
+
         // Read each character in input string
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);

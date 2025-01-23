@@ -24,5 +24,6 @@ public class SeparateCharacters {
         System.out.println("Uppercase Letters: " + uppercaseLetters);
         System.out.println("Numeric Values: " + numericValues);
         System.out.println("Special Characters: " + specialCharacters);
+
     }
 }

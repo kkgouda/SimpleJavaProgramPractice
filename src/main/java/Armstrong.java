@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Armstrong {
+public class
+Armstrong {
     public static void main(String[] args) {
-        int num = 9474, sum = 0, temp = num;  //153
+        int num = 153, sum = 0, temp = num;  //9474
         while (temp != 0) {
             int digit = temp % 10;
-            sum += Math.pow(digit, 4);
+            sum += Math.pow(digit, 3);
             temp /= 10;
         }
         System.out.println(num == sum);

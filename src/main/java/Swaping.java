@@ -11,7 +11,6 @@ public class Swaping {
 //        b = a-b;
 //        System.out.println("After swap A: "+a+ "B: " +b);
 //
-//
 
         String A = "kiran";
         String B = "babu";

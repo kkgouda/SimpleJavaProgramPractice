@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,9 +15,9 @@ public class DuplicateNumberCount {
             // Print the duplicate numbers
             System.out.println("Duplicate numbers in the given array are:");
             for (Map.Entry<Integer, Integer> entry : numberCount.entrySet()) {
-                if (entry.getValue() > 1) {  // Check if the number occurs more than once //(entry.getValue() == 1)
-                    System.out.println(entry.getKey());
-                }
+               if (entry.getValue() > 1) {  // Check if the number occurs more than once //(entry.getValue() == 1)
+                    System.out.print(entry.getKey()+" ");
+               }
             }
         }
     }

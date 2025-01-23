@@ -15,7 +15,6 @@ public class CommonStringInTwoArray {
             if (set.contains(wd)) {
                 System.out.print(wd + " ");
             }
-
        }
 
     }

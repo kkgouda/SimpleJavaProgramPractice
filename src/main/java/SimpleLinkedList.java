@@ -10,6 +10,7 @@ public class SimpleLinkedList {
         list.add("u");
         list.remove("a");
 
+
         for (String vowels:list) {
             System.out.println(vowels);
         }

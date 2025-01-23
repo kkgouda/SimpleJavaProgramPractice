@@ -5,14 +5,11 @@ public class ReverseWord {
         String reverse="";
       //Reverse each word's position
         for(int i=0;i<word.length;i++){
-            if(i == word.length - 1){
-                reverse = word[i] + reverse;
+           reverse = " " + word[i] + reverse;
             }
-            else {
-                reverse = " " + word[i] + reverse;
-            }
-        }
         System.out.println("Reverse words are:"+ reverse);
+        }
+
     }
-}
+
 

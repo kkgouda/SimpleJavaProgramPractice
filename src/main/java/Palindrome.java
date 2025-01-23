@@ -11,6 +11,7 @@ public class Palindrome {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter value: ");
         input = sc.next().toString();
+
         for (int i=0;i<input.length();i++){
             output=input.charAt(i)+output;
         }

@@ -10,10 +10,12 @@ public class ThirdHighestNumberOfArray {
                 thirdHighest=secondHighest;
                 secondHighest=highest;
                 highest=numbers;
-            } else if (numbers>secondHighest) {
-                thirdHighest=secondHighest;
-                secondHighest=numbers;
-            } else if (numbers>thirdHighest && numbers !=thirdHighest) {
+            }
+            //else if (numbers>secondHighest) {
+             //   thirdHighest=secondHighest;
+             //   secondHighest=numbers;
+           // }
+        else if (numbers>thirdHighest && numbers !=highest) {
                 thirdHighest=numbers;
             }
         }

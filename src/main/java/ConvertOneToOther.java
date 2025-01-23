@@ -1,4 +1,4 @@
-public class ConvertOneToOther {
+public class    ConvertOneToOther {
     public static void main(String args[]){
 //        String str = "55666";
 //        int in = Integer.parseInt(str);

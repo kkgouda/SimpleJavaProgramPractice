@@ -20,6 +20,7 @@ public class GivenStringValidAndInvalidUsingConcatenate {
             // Push opening brackets onto the stack
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
+
             }
             // For closing brackets, check if they match the top of the stack
             else if (c == ')' && !stack.isEmpty() && stack.peek() == '(') {

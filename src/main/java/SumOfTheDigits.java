@@ -7,11 +7,11 @@ public class SumOfTheDigits {
 //        int numOfDigit = String.valueOf(num1).length();
 //        System.out.println("Number of digit is: "+numOfDigit);
 
-        while (num>0) // Loop through each digit
+        while (num > 0) // Loop through each digit
         {
             int digit = num%10;
-            sum +=digit; // Extract the last digit
-            num=num/10; // Remove the last digit
+            sum += digit; // Extract the last digit
+            num = num/10; // Remove the last digit
        }
         System.out.println("Sum of the digits are:" + sum);
 

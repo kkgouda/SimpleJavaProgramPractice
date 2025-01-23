@@ -1,7 +1,6 @@
 public class LongestAndShotestFromString {
     public static void main(String[] args) {
-        String sentence = "Sam kiran kiran went went to to to to his business";
-        String word[] = sentence.split(" ");
+        String word[] = "Sam kiran kiran went went to to to to his business".split(" ");
 
         String longestWord = word[0];
         String shortestWord = word[0];
@@ -10,7 +9,7 @@ public class LongestAndShotestFromString {
             if (words.length() > longestWord.length()) {
                 longestWord = words;
             }
-            if (words.length() < shortestWord.length()) {
+           else if (words.length() < shortestWord.length()) {
                 shortestWord = words;
             }
         }

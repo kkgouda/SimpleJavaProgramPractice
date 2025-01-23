@@ -1,8 +1,5 @@
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
-
 public class CommonCharacter {
     public static void main(String[] args) {
     String name1="kiran kumar gouda";
@@ -17,6 +14,7 @@ public class CommonCharacter {
             if(common.contains(com)){
               System.out.print(com+" ");
             }
+
         }
     }
 }

@@ -3,7 +3,6 @@ public class AdditionFromStringSingle {
 
         String input = "125sdsdf25sfs25wdsf";
         int sum=0;
-
         for (int i=0;i<input.length();i++){
             char ch=input.charAt(i);
             if(Character.isDigit(ch)){

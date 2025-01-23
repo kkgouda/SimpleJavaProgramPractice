@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class ArrayMerge {
     public static void main(String[] args) {
         int a[] = {2,3,4};
